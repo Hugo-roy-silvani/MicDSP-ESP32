@@ -72,7 +72,7 @@ Microphone → ADC → I2S → DMA Buffer → DSP Pipeline → DAC → Amplifier
 - ESP-IDF 5.x
 - ESP-DSP library
 - FreeRTOS (tasks & timing)
-- C / C++
+- C
 - I2S (ADC/DAC internal)
 - PyQt6
 - FFT, block-based DSP processing
