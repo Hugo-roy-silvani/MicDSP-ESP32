@@ -1,3 +1,5 @@
+![status](https://img.shields.io/badge/status-in%20progress-yellow)
+
 # 🎧 MicDSP-ESP32 — Real-Time Microphone DSP Pipeline
 
 *A modular real-time DSP pipeline running on ESP32, featuring EQ, dynamics processing, RMS/FFT analysis and a Python GUI for live control and visualization. Designed as a compact audio front-end for microphone input using the built-in ADC/DAC and I2S interface.*
