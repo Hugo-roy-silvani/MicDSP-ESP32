@@ -46,7 +46,7 @@ MicDSP-ESP32/
 │   │     └── fft.c/.h  
 │   ├── audio_io/  
 │   │     └── i2s_manager.c/.h  
-│   └── control/
+│   └── control/  
 │         ├── switch_control.c/.h  
 │         ├── uart_interface.c/.h  
 │  
@@ -64,10 +64,10 @@ MicDSP-ESP32/
 ## Architecture overview
 
 Microphone → ADC → I2S → DMA Buffer → DSP Pipeline → DAC → Amplifier → Speaker  
-                                          │  
-                                     UART Control  
-                                          │  
-                                   GUI (PyQt6, FFT)  
+                                                                                    │  
+                                                                            UART Control  
+                                                                                    │  
+                                                                           GUI (PyQt6, FFT)  
 ## ⚙️ Technologies Used
 - ESP-IDF 5.x
 - ESP-DSP library
