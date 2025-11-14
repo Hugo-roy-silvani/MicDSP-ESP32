@@ -64,7 +64,7 @@ MicDSP-ESP32/
 ## Architecture overview
 
 Microphone → ADC → I2S → DMA Buffer → DSP Pipeline → DAC → Amplifier → Speaker  
-.                                          │  
+.                                                                    │  
 .                                     UART Control  
 .                                          │  
 .                                      GUI (PyQt6)  
