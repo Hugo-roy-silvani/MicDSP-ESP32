@@ -62,6 +62,7 @@ MicDSP-ESP32/
 | **MCU**            | ESP32 DevKit             | Microcontroller board                    |
 | **Amplifier**      | MAX98357A               | I²S class-D amplifier (3W)               |
 | **Speaker**        | Passive loudspeaker     | 4Ω or 8Ω, compatible with MAX98357A      |
+
 ![IMG_6533](https://github.com/user-attachments/assets/f8598b54-5a94-4961-872d-a97d8d0ddbe6)
 
 ## Architecture overview
