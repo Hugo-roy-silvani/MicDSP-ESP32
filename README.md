@@ -29,6 +29,8 @@
 - Threshold/ratio/attack/release for dynamics modules
 - Live RMS metering
 - Serial (UART) communication with the ESP32
+<img width="822" height="660" alt="Capture d’écran du 2025-11-14 15-49-49" src="https://github.com/user-attachments/assets/3b6b269c-cd99-4b3f-8ef0-54cb47ab3eae" />
+<img width="822" height="660" alt="Capture d’écran du 2025-11-14 15-50-05" src="https://github.com/user-attachments/assets/20e9f07b-0540-4de9-b37d-8dfe435f75cc" />
 
 ## Project Structure 
 
