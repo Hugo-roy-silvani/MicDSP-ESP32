@@ -1,14 +1,14 @@
 ![status](https://img.shields.io/badge/status-in%20progress-yellow)
 
-# 🎧 MicDSP-ESP32 — Real-Time Microphone DSP Pipeline
+# MicDSP-ESP32 — Real-Time Microphone DSP Pipeline
 
 *A modular real-time DSP pipeline running on ESP32, featuring EQ, dynamics processing, RMS/FFT analysis and a Python GUI for live control and visualization. Designed as a compact audio front-end for microphone input using the built-in ADC/DAC and I2S interface.*
 
 ---
 
-## 🚀 Features
+## Features
 
-### 🎚️ **DSP Processing**
+### **DSP Processing**
 - 3-band IIR Equalizer
 - Expander (noise reduction & gating)
 - Compressor (dynamic range control)
@@ -18,13 +18,13 @@
 
 *All algorithms run in real-time under FreeRTOS using a block-processing architecture.*
 
-### 🎵 **Audio I/O**
+### **Audio I/O**
 - ESP32 internal ADC/DAC
 - I2S input/output
 - Circular DMA buffers
 - Configurable sample rate (e.g. 16 kHz / 32 kHz / 48 kHz)
 
-### 🖥️ **Control & Monitoring GUI**
+### **Control & Monitoring GUI**
 *A Python/PyQt6 interface providing:*
 - Real-time FFT display
 - Adjustable EQ band gains
@@ -56,7 +56,7 @@ MicDSP-ESP32/
 │  
 ├── UI/                  
 └── LICENSE  
-## 🧩 Hardware Setup
+## Hardware Setup
 
 | **Component**       | **Model**               | **Description**                          |
 |---------------------|-------------------------|------------------------------------------|
@@ -74,7 +74,7 @@ Microphone → ADC → I2S → DMA Buffer → DSP Pipeline → DAC → Amplifier
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UART Control  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GUI (PyQt6)  
-## ⚙️ Technologies Used
+## Technologies Used
 - ESP-IDF 5.x
 - ESP-DSP library
 - FreeRTOS (tasks & timing)
@@ -85,14 +85,14 @@ Microphone → ADC → I2S → DMA Buffer → DSP Pipeline → DAC → Amplifier
   
 ---
 
-## 🎤 Goals of the Project
+## Goals of the Project
 - Build a real-time DSP audio front-end from scratch
 - Understand low-level I2S, DMA, ADC/DAC timing
 - Implement core DSP modules (EQ, compressor, limiter)
 - Visualize and tune everything via a live GUI
 - Provide a clean, modular architecture for future extensions
 
-## 🛠️ Build Instructions
+## Build Instructions
 
 ### Requirements
 - ESP-IDF (≥ 5.0)
