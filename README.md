@@ -88,7 +88,7 @@ Microphone → ADC → I2S → DMA Buffer → DSP Pipeline → DAC → Amplifier
 ## Goals of the Project
 - Build a real-time DSP audio front-end from scratch
 - Understand low-level I2S, DMA, ADC/DAC timing
-- Implement core DSP modules (EQ, compressor, limiter)
+- Implement core DSP modules (EQ, expander, compressor, limiter)
 - Visualize and tune everything via a live GUI
 - Provide a clean, modular architecture for future extensions
 
